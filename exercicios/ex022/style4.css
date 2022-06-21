@@ -1,10 +1,23 @@
 body{
-    border: 1px solid black;
-    
-    
+    width: 95%vh;
     height: 98%vh;
-    background-image: url(imagens/wallpaper003.jpg);
+    background-image: url(imagens/wallpaper002.jpg);
     background-repeat: no-repeat;
-    
+    background-size: cover;
+    background-attachment: fixed;
+
+    /*Shorthand background    
+    color-> image -> postion -> [size] -> attachment    
+    */
+}
+
+div{
+
+    max-width: 500px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: justify;
+    margin: auto
 
 }
